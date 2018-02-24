@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+div {
+    padding: 10px;
+}
+
+.content {
+}
+
+header {
+    color: white;
+    position: relative;
+}
+
+
+
+#text, #logodiv {
+    margin: 0;
+    box-sizing: padding-box;
+    position: absolute;
+}
+
+#text {
+    width: 100%;
+    color: white;
+    top: 40px;
+    z-index: 50;
+    text-align: center;
+}
+
+#logodiv {
+    top: 0;
+    right: 0;
+    z-index: 49;
+    text-align: right;
+}
+
+
+#text span {
+    /*color: #E42125;*/
+    zoom: 2;
+    vertical-align: super;
+    background-image: -webkit-linear-gradient(left, #A47722, #E42125, #345491); /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #A47722, #E42125, #345491); /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #A47722, #E42125, #345491); /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #A47722, #E42125, #345491); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #A47722, #E42125, #345491); /* Standard syntax; must be last */
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#logo {
+    width: 300px;
+}
+
+aside {
+    background-color: black;
+    width: 15%;
+    padding: 4px;
+    float: left;
+}
+
+    aside a {
+        color: black;
+        background-color: white;
+        display: block;
+        padding: 10px;
+        margin-bottom: 5px;
+        text-decoration: none
+    }
+
+        aside a:first-child {
+            margin-top: 10px;
+        }
+
+.page {
+    background-color: white;
+    margin-left: 17%;
+    display: block;
+}
+
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#rubrik1 {
+    font-family: "Lucida Sans Unicode";
+    color: black
+}
+
+#stil1, #old {
+    color: black;
+    font-family: "Lucida Sans Unicode";
+    padding: 10px;
+}
+
+
+#old {
+    float: right;
+    width: 350px;
+    height: 250px;
+}
+
+#rubrik2 {
+    color: black;
+    font-family: "Calibri";
+}
+
+#stil2 {
+    color: black;
+    font-family: "Calibri";
+    font-size: 20px;
+    padding: 10px;
+}
+
+#flyg {
+    float: left;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+}
+
+#mcykel {
+    color: black;
+    font-family: fantasy;
+}
+
+#stil3 {
+    color: darkmagenta;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+#motorc {
+    float: right;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+}
+
+.under {
+    color: white;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    display: block;
+}
+
+#adress {
+    color: white;
+    font-family: "Century";
+    font-style: italic;
+    width:150px;
+    position:absolute;
+    left:17%;
+}
+#socialwrapper{
+    position:absolute;
+    left:50%;
+}
+#social {
+    font-size: 35px;
+    background-color:white;
+    display:inline-block;
+    position:relative;
+    letter-spacing:8px;
+  
+    
+   
+}
+#orgnr {
+    color: white;
+    font-family: "Candara";
+    font-style: italic;
+    width: 200px;
+    position: absolute;
+    right: 0%;
+    
+}
+
+
+/*
+body 
+{
+    background-color: white;
+  
+}
+
+#logo{
+
+    width:300px;
+}
+
+
+
+
+
+#header {
+    background-color: black;
+    
+    height:250px;
+    margin-top: -228.5px;
+    
+   }
+
+#id2{
+    font-family:'Times New Roman';
+    font-size: 50px;
+    color:white;
+    margin-top: -125px;
+    margin-left:500px;
+}
+
+#logo2 {
+    width: 250px;
+    height:100px;
+    margin-top:31px;
+}
+
+#boxdown{
+
+background-color: black;
+width:250px;
+height:1200px;
+margin-top:-10px;
+
+}
+
+
+
+
+#smallbox{
+
+    background-color: white;
+    width:150px;
+    height:25px;
+    margin-top: -1180px;
+    margin-left:100px;
+    padding:0px 100px 0px 0px;
+}
+#old {
+    width: 400px;
+    height: 400px;
+    margin-top: -138px;
+    margin-left: 250px;
+    padding: 20px 20px 20px 20px;
+}
+
+#old2 {
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 700px;
+    padding: 30px 30px 30px 30px;
+}
+
+#smallbox2 {
+    
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    margin-top: 25px;
+    margin-top:-260px;
+    margin-left:0px;
+    
+}
+
+#smallbox3 {
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left:100px;
+}
+
+#smallbox4 {
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+#smallbox5 {
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+#smallbox6 {
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+#box{
+
+
+
+}
+*/
